@@ -15,15 +15,16 @@ int main(void)
 
 string reverse_words(string str)
 {
-    string cword, out;
- for (char c : str) {
+  string cword, out;
+  for (char c : str) 
+  {
     if (c == ' ') {
       out += cword;
       out += c;
       cword = "";
       continue;
     }
-    cword = c+ cword;
+    cword = c + cword;
   }
   out += cword;
   return out;
