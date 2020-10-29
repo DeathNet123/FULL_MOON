@@ -1,8 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jim+Nightshade&display=swap');
+/*
+    font-family: 'Great Vibes', cursive;
+font-family: 'Jim Nightshade', cursive;
+*/
+:root
+{
+    --bg-color: #ccc;
+    --nav-color: #181616;
+    --font-color: #000000;
+}
 body
 {
+    background-color: var(--bg-color);
+    font-size: 100%;
 
+}
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Great Vibes', cursive;
+}
+#written h1
+{
+    font-family: 'Great Vibes', cursive;
+    font-size: 5em;
+    text-align: center;
+}
+#written>p
+{
+    font-family: 'Jim Nightshade', cursive;
+    text-align: center;
+    font-size: 2.3em;
 }
 .container
 {
     min-height: 100vh;
+}
+#main_picture
+{
+    display: block;
+    width: 100%;
+    text-align: center; 
+    font-style: italic;
+}
+#main_picture>img
+{
+    width: 100%;
 }
